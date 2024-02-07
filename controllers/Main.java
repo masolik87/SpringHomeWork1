@@ -29,6 +29,7 @@ public class Main {
             person = (Person)in.readObject();
             System.out.println("name: " + person.getFirstName());
             System.out.println("lastName: " + person.getLastName());
+            System.out.println("age: " + person.getAge());
         }
         catch (IOException e) {
         }
